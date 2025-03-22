@@ -1,4 +1,4 @@
-# Learn Game - Coding Tutorial
+# Learn Game - Coding Tutorial for Kids
 
 Welcome to the Learn Game tutorial! In this fun exercise, you'll learn the basics of programming by building your own game.
 
@@ -17,8 +17,21 @@ You'll get to choose between two exciting games to build:
 
 ## How to Start
 
-1. First, read through this document to understand what we're building
-2. Then, open the file called `Tutorial/Step1.md` to begin your adventure!
+1. Open the terminal by clicking on the black panel at the bottom of the screen
+2. Run the tutorial with this command:
+   ```
+   npm run tutorial
+   ```
+3. Once the tutorial starts, click on the link to open it in your browser
+4. Follow the instructions to build your game
+5. When you're ready to run your game, use this command:
+   ```
+   npm run game
+   ```
+6. To switch back to the tutorial, use:
+   ```
+   npm run tutorial
+   ```
 
 Let's start coding and have fun!
 
