@@ -23,8 +23,8 @@ You'll get to choose between two exciting games to build:
    npm run tutorial
    ```
 3. Once the tutorial starts, click on the link to open it in your browser
-4. Follow the instructions to build your game
-5. When you're ready to run your game, use this command:
+4. Follow the instructions to build your game. 
+5. When you're ready to run your game, first stop the terminal with CTL+C, then use this command:
    ```
    npm run game
    ```

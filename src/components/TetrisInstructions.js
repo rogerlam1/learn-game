@@ -41,7 +41,7 @@ Important:
         </li>
         
         <li>
-          <p>Once the code is created, run your game with this command in the terminal:</p>
+          <p>Once the code is created, stop the terminal with CTL+C, then run your game with this command in the terminal:</p>
           
           <div className="code-prompt">
             <pre>npm run game</pre>
