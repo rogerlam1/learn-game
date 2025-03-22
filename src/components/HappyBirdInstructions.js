@@ -2,20 +2,23 @@ import React from 'react';
 import CopyButton from './CopyButton';
 
 function HappyBirdInstructions({ onBack }) {
-  const happyBirdPrompt = `Use React to create a simple Happy Bird game with keyboard controls. 
-1. Use all of the same game elements of the original game
-2. Game character must not be able to fall through the floor
-3. Ensure physics is correct where bird cannot pass through objects
-4. Game can start with space bar
-5. Use bird.gif for character
+  const happyBirdPrompt = `Use React to create Happy Bird game with keyboard controls. 
+1. Use all of the same game elements of the original game ensure it's playble like the original
+2. Create obstacles (pipes or columns with gaps to fly through).
+3. Make the bird fall down due to gravity
+4. Let me press the space bar to make the bird fly upward
+5. Make obstacles move from right to left automatically but slowly at first.
+6. Add a score that increases when passing through obstacles
+7. End the game when the bird hits an obstacle or the ground
+8. Game character must not be able to fall through the floor
 
 Important: 
-1. Create all game files in a new folder called 'game'
+1. Create all game files the existing 'game' folder
 2. The game should be a standalone React application in the game folder with its own index.js and index.html
 3. Include the Firebase scripts in the game's index.html
 4. npm run game is already setup to run the game in the game directory
-5. Keep game file structure simple with a main game file and a game mechanic file. 
-6. Double check import of all mechanic variables`;
+5. Create the game with one main game file and one configuration file for game settings. 
+6. Make sure bird.gif is in the right path within game folder and webpack.config.js supports it.`;
 
   const runGameCommand = `npm run game`;
   const runTutorialCommand = `npm run tutorial`;
