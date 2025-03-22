@@ -14,28 +14,24 @@ function TetrisInstructions({ onBack }) {
       <h2>Let's Make the Game!</h2>
       
       <ol>
-        <li>First, look at the code in the left side panel. This is where your game will be built.</li>
+        <li>First, look at the code in the right side panel. This is where your game will be built.</li>
         
         <li>
-          <p>Type this prompt in the chat box (where you're talking to the AI):</p>
+          <p>Copy and paste this prompt in the chat box (where you're talking to the AI):</p>
           
           <div className="code-prompt">
             <pre>
               {`Create a simple Tetris game with keyboard controls. Use React to:
-1. Make a grid for the Tetris pieces
-2. Create different block shapes (using simple colored squares)
-3. Make blocks fall automatically
-4. Let me use arrow keys to move left, right, and down
-5. Let me use the up arrow to rotate pieces
-6. Add a score that increases when lines are completed
-7. End the game when blocks reach the top
-8. Game blocks must not be able to fall through the floor
+1. Make the game with all of the original Tetris elements and mechanics
+2. Game blocks must not be able to fall through the floor
 
 Important: 
 1. Create all game files in a new folder called 'game'
 2. The game should be a standalone React application in the game folder with its own index.js and index.html
 3. Include the Firebase scripts in the game's index.html
-4. npm run game is already setup to run the game in the game directory`}
+4. npm run game is already setup to run the game in the game directory
+5. Keep game file structure simple with a main game file and a game mechanic file. 
+6. Double check import of all mechanic variables`}
             </pre>
           </div>
         </li>

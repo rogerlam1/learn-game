@@ -3,9 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './game/index.js',
+  entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'game'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
   devServer: {
@@ -35,7 +35,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './game/index.html',
+      template: './public/index.html',
     }),
   ],
   resolve: {
