@@ -2,17 +2,16 @@ import React from 'react';
 import CopyButton from './CopyButton';
 
 function TetrisInstructions({ onBack }) {
-  const tetrisPrompt = `Create a simple Tetris game with keyboard controls. Use React to:
+  const tetrisPrompt = `Create a simple Tetris game with keyboard controls using html:
 1. Make the game with all of the original Tetris elements and mechanics
 2. Game blocks must not be able to fall through the floor
 
 Important: 
-1. Create all game files in a new folder called 'game'
-2. The game should be a standalone React application in the game folder with its own index.js and index.html
-3. Include the Firebase scripts in the game's index.html
-4. npm run game is already setup to run the game in the game directory
-5. Keep game file structure simple with a main game file and a game mechanic file. 
-6. Double check import of all mechanic variables`;
+1. Create all game files in a new folder called 'game'. 
+2. Create a html component-based implementation with a proper index.js entry point
+3. The main index.js file should render your React Tetris component
+4. Include these Firebase scripts in the game's index.html.
+5. Create the entire game in one file.`;
 
   const runGameCommand = `npm run game`;
   const runTutorialCommand = `npm run tutorial`;
