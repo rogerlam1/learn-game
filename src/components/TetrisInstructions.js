@@ -1,6 +1,22 @@
 import React from 'react';
+import CopyButton from './CopyButton';
 
 function TetrisInstructions({ onBack }) {
+  const tetrisPrompt = `Create a simple Tetris game with keyboard controls. Use React to:
+1. Make the game with all of the original Tetris elements and mechanics
+2. Game blocks must not be able to fall through the floor
+
+Important: 
+1. Create all game files in a new folder called 'game'
+2. The game should be a standalone React application in the game folder with its own index.js and index.html
+3. Include the Firebase scripts in the game's index.html
+4. npm run game is already setup to run the game in the game directory
+5. Keep game file structure simple with a main game file and a game mechanic file. 
+6. Double check import of all mechanic variables`;
+
+  const runGameCommand = `npm run game`;
+  const runTutorialCommand = `npm run tutorial`;
+
   return (
     <div className="game-instructions-detail">
       <h1>Building Your Tetris Game</h1>
@@ -20,19 +36,8 @@ function TetrisInstructions({ onBack }) {
           <p>Copy and paste this prompt in the chat box (where you're talking to the AI):</p>
           
           <div className="code-prompt">
-            <pre>
-              {`Create a simple Tetris game with keyboard controls. Use React to:
-1. Make the game with all of the original Tetris elements and mechanics
-2. Game blocks must not be able to fall through the floor
-
-Important: 
-1. Create all game files in a new folder called 'game'
-2. The game should be a standalone React application in the game folder with its own index.js and index.html
-3. Include the Firebase scripts in the game's index.html
-4. npm run game is already setup to run the game in the game directory
-5. Keep game file structure simple with a main game file and a game mechanic file. 
-6. Double check import of all mechanic variables`}
-            </pre>
+            <CopyButton textToCopy={tetrisPrompt} />
+            <pre>{tetrisPrompt}</pre>
           </div>
         </li>
         
@@ -44,7 +49,8 @@ Important:
           <p>Once the code is created, stop the terminal with CTL+C, then run your game with this command in the terminal:</p>
           
           <div className="code-prompt">
-            <pre>npm run game</pre>
+            <CopyButton textToCopy={runGameCommand} />
+            <pre>{runGameCommand}</pre>
           </div>
           
           <p>This will automatically configure everything to run your game!</p>
@@ -54,7 +60,8 @@ Important:
           <p>When you want to return to this tutorial, run:</p>
           
           <div className="code-prompt">
-            <pre>npm run tutorial</pre>
+            <CopyButton textToCopy={runTutorialCommand} />
+            <pre>{runTutorialCommand}</pre>
           </div>
         </li>
       </ol>
