@@ -46,7 +46,7 @@ Important:
           <p>Once the code is created, run your game with this command in the terminal:</p>
           
           <div className="code-prompt">
-            <pre>npm run run:game</pre>
+            <pre>npm run game</pre>
           </div>
           
           <p>This will automatically configure everything to run your game!</p>
@@ -56,7 +56,7 @@ Important:
           <p>When you want to return to this tutorial, run:</p>
           
           <div className="code-prompt">
-            <pre>npm run run:tutorial</pre>
+            <pre>npm run tutorial</pre>
           </div>
         </li>
       </ol>

@@ -12,8 +12,8 @@
     "dev": "concurrently \"npm run emulators\" \"npm run start\"",
     "game:setup": "node scripts/setup-game.js",
     "tutorial:setup": "node scripts/setup-tutorial.js",
-    "run:game": "npm run game:setup && concurrently \"npm run emulators\" \"npm run start\"",
-    "run:tutorial": "npm run tutorial:setup && concurrently \"npm run emulators\" \"npm run start\"",
+    "game": "npm run game:setup && concurrently \"npm run emulators\" \"npm run start\"",
+    "tutorial": "npm run tutorial:setup && concurrently \"npm run emulators\" \"npm run start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
