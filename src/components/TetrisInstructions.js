@@ -31,9 +31,9 @@ function TetrisInstructions({ onBack }) {
 7. End the game when blocks reach the top
 
 Important: 
-1. Create all game files in a folder called 'game'
-2. Update the firebase.json file to change the "hosting" > "public" value from "dist" to "game"
-3. Make sure the index.html in the game folder includes all necessary Firebase scripts`}
+1. Create all game files in a new folder called 'game'
+2. The game should be a standalone React application in the game folder with its own index.js and index.html
+3. Include the Firebase scripts in the game's index.html`}
             </pre>
           </div>
         </li>
@@ -43,7 +43,21 @@ Important:
         </li>
         
         <li>
-          <p>Once the code is created, go to the next step: open the file <code>Tutorial/Step3-TestTetris.md</code></p>
+          <p>Once the code is created, run your game with this command in the terminal:</p>
+          
+          <div className="code-prompt">
+            <pre>npm run run:game</pre>
+          </div>
+          
+          <p>This will automatically configure everything to run your game!</p>
+        </li>
+        
+        <li>
+          <p>When you want to return to this tutorial, run:</p>
+          
+          <div className="code-prompt">
+            <pre>npm run run:tutorial</pre>
+          </div>
         </li>
       </ol>
       
