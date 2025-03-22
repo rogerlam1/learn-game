@@ -29,11 +29,13 @@ function TetrisInstructions({ onBack }) {
 5. Let me use the up arrow to rotate pieces
 6. Add a score that increases when lines are completed
 7. End the game when blocks reach the top
+8. Game blocks must not be able to fall through the floor
 
 Important: 
 1. Create all game files in a new folder called 'game'
 2. The game should be a standalone React application in the game folder with its own index.js and index.html
-3. Include the Firebase scripts in the game's index.html`}
+3. Include the Firebase scripts in the game's index.html
+4. npm run game is already setup to run the game in the game directory`}
             </pre>
           </div>
         </li>

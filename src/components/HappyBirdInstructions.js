@@ -29,11 +29,13 @@ function HappyBirdInstructions({ onBack }) {
 5. Make obstacles move from right to left automatically
 6. Add a score that increases when passing through obstacles
 7. End the game when the bird hits an obstacle or the ground
+8. Game character must not be able to fall through the floor
 
 Important: 
 1. Create all game files in a new folder called 'game'
 2. The game should be a standalone React application in the game folder with its own index.js and index.html
-3. Include the Firebase scripts in the game's index.html`}
+3. Include the Firebase scripts in the game's index.html
+4. npm run game is already setup to run the game in the game directory`}
             </pre>
           </div>
         </li>
